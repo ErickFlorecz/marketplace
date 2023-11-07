@@ -17,6 +17,7 @@ function App() {
       <div className="relative -bottom-12">
         <p className='text-center text-2xl font-semibold text-neutral-500'>Muy pronto</p>
       </div>
+ 
     </>
   )
 }
