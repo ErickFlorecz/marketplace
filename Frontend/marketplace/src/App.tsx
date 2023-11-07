@@ -8,24 +8,16 @@ function App() {
 
   return (
     <>
-      <div className=''>
-        {/* <div className="flex justify-center">
-            <img src={viteLogo} className="logo" alt="Vite logo" />
-            <img src={reactLogo} className="logo react" alt="React logo" />
-        </div> */}
-      <div className="text-right">
-      <h1 className='font-bold'>IndustryXTrade</h1>
-      <p>powered by <strong>Alfil Tecnologia</strong></p>
-      </div>
+      <div className='m-0 mx-auto'>
+        <div className="text-right border-b-2">
+          <h1 className='font-bold text-[3.2rem] leading-tight logo'>IndustryXTrade</h1>
+          <p>powered by <strong className=''>Alfil Tecnologia</strong></p>
+        </div>
       </div>
       <div className="relative -bottom-12">
-        <p className='text-2xl'>En desarrollo </p>
+        <p className='text-center text-2xl font-semibold text-neutral-500'>Muy pronto</p>
       </div>
-      {/* <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div> */}
+ 
     </>
   )
 }
